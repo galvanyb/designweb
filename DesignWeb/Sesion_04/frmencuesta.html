@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>..::Encuesta Cinematográfica::..</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div id="Contenedor">
+        <h2>Encuesta de Cine: Nominados al Oscar 2018</h2>
+        <form id="formulario1" name="formulario1" method="post" action="data.php">
+            <fieldset id="datos_personales" style="margin: 0px; width: 510px; height: 220px;">
+                <legend>Datos Personales</legend> <br>
+                <label for="nombre">Nombre &nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="mombre" id="nombre" /> <br><br>
+
+                <label for="apellido">Apellido&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="apellido" id="apellido"/> <br><br>
+
+                <label for="dni">DNI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="dni" id="dni" maxlength="2"> <br><br>
+
+                <label for="edad">Edad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="edad" id="edad" size="2" maxlength="9"> <br> <br>
+
+                <label for="sexo">Sexo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <select id="sexo" name="sexo"> <br> <br>
+                    <option value="X" selected="selected">...</option>
+                    <option value="M">Masculino</option>
+                    <option value="F">Femenino</option>
+                </select>
+            </fieldset> <br>
+            <fieldset id="mejor_pelicula" style="margin: 0px; width: 510px; height: 100px;">
+                <legend>Mejor Película</legend> <br>
+                <input type="radio" name="pelicula" value="1"> Pelicula 01 <br>
+                <input type="radio" name="pelicula" value="2"> Pelicula 02 <br>
+                <input type="radio" name="pelicula" value="3"> Pelicula 03 <br>
+            </fieldset> <br>
+            <fieldset id="seleccion_pelicula" style="margin: 0px; width: 510px; height: 140px;">
+                <legend>Selecciona las Películas que no hayas Visto</legend> <br>
+                <input type="checkbox" name="pelicula" value="1"> Pelicula 01 <br>
+                <input type="checkbox" name="pelicula" value="2"> Pelicula 02 <br>
+                <input type="checkbox" name="pelicula" value="3"> Pelicula 03 <br>
+                <input type="checkbox" name="pelicula" value="4"> Pelicula 04 <br>
+                <input type="checkbox" name="pelicula" value="5"> Pelicula 05 <br>
+            </fieldset> <br>
+            <fieldset id="seleccion_pelicula" style="margin: 0px; width: 510px; height: 230px;">
+                <legend>Argumento de la película que más te gustó</legend> <br>
+                <textarea name="mensaje" style="margin: 0px; width: 500px; height: 180px;"></textarea>
+            </fieldset> <br>
+            <div id="botones">
+                <input type="reset" value="Borrar Formulario">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
