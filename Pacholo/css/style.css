@@ -1,0 +1,13 @@
+:root{
+    --colorfooter:green;
+    --menudeco: none;
+    --bgp: rgb(230, 171, 8);
+}
+
+body,html{
+    background-color: var(--bgp);
+}
+nav li{
+    color: var(--colorfooter);
+    text-decoration: var(--menudeco);
+}

@@ -1,0 +1,15 @@
+.bloque {
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    background-color: burlywood;
+}
+
+.function parImpar(numero) {
+    if(numero % 2==0) {
+        return "par";
+    }
+    else {
+        return "impar";
+    }
+}

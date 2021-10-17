@@ -1,0 +1,37 @@
+main {
+    background-color: green;
+}
+
+header {
+    background-color: yellow;
+}
+
+nav {
+    float: left;
+    width: 30%;
+}
+
+article {
+    float: left;
+    width: 70%;
+    background-color: gray;
+}
+
+footer {
+    clear: both;
+    background-color: blue;
+    height: 40px;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    padding: 10%;
+}
+
+img {
+    width: 60px;
+    float: right;
+}

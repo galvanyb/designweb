@@ -1,0 +1,39 @@
+main {
+    background-color: blueviolet;
+    width: 1000px;
+    margin: auto;
+    height: 200px;
+}
+
+header {
+    background-color: rgb(61, 139, 103);
+    height: 150px;
+}
+
+nav {
+    background-color: rgb(182, 119, 24);
+    width: 25%;
+}
+
+section {
+    background-color: rgb(12, 12, 196);
+    width: 50%;
+}
+
+aside {
+    background-color: rgb(231, 18, 231);
+    width: 25%;
+}
+
+footer {
+    clear: both;
+    background-color: rgb(52, 24, 236);
+    height: 150px;
+}
+
+nav,
+aside,
+section {
+    float: left;
+    height: 300px;
+}
