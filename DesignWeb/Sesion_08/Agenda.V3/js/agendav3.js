@@ -44,13 +44,12 @@ function actualizarDatos() {
     } else {
         for (var i = 0; i <= localStorage.length - 1; i++) {
             var key = localStorage.key(i);
-            let datos = localStorage.getItem(i);
+            let datos = localStorage.getItem(key);
             datos = JSON.parse(datos);
 
             registro += `<li>' + '<span class="nom">' ${key} </span>
                                  <span class="nom">' ${kdatos.movil} </span>
-                                 <span class="nom">' ${kdatos.email} </span>`
-
+                                 <span class="nom">' ${kdatos.email} </span>`;
         }
     }
     document.getElementById('contactos').innerHTML = registro;
